@@ -1016,3 +1016,30 @@ textarea.form-control {
 
 .text-black {
   color: #000 !important; }
+
+
+  <*--- log.html ---*>
+
+.body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: 
+  background-size: cover;
+}
+
+.form{
+  background: #000;
+  z-index: 1;
+  font-family: "candara", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 0 45px 30px 45px;
+  text-align: left;
+  border-radius: 10px;
+  opacity: 0.9;
+
+}
