@@ -26,7 +26,9 @@
 			$this.removeClass('show');
 			$this.find('> a').attr('aria-expanded', false);
 			$this.find('.dropdown-menu').removeClass('show');
-	});
+  });
+  
+
 
 
 
@@ -201,3 +203,13 @@
 
 
 })(jQuery);
+
+
+$("#heading").click(function() {
+  var CheckAvailability = confirm(
+    "Choose hotel room to book your stay"
+  );
+  if (CheckAvailability) {
+    var book = prompt("Choose hotel room to book your stay");
+  }
+});
