@@ -1018,4 +1018,40 @@ textarea.form-control {
   color: #000 !important; }
 
 
+/*Hotel History*/
+
+.img-fluid #img-6{
+  float: left;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.history .lead{
+  float: right;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.history .heading{
+  text-align: center;
+}
+
+/* Amenities*/
+
+.containers{
+  width: 80%;
+  margin-left: auto;
+  overflow: hidden;
+  text-align: center;
+}
  
+/* Boxes */
+#boxes{
+  margin-top: 20px;
+}
+#boxes. box{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
