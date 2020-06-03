@@ -1019,23 +1019,35 @@ textarea.form-control {
 
 
 /*Hotel History*/
-
-.img-fluid #img-6{
-  float: left;
-  width: 400px;
-  margin-top: 10px;
-}
-
-.history .lead{
-  float: right;
-  width: 400px;
-  margin-top: 10px;
-}
-
-.history .heading{
+.heading{
   text-align: center;
 }
 
+
+/* Benefits section*/
+
+#how-it-works{
+  text-align: center;
+  text-decoration: rgba(0, 0, 0, 0.45);
+  font-family: sans-serif;
+}
+
+.{
+  float: left;
+  width: 30%;
+  margin-top: 10px;
+}
+
+.{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+.{
+  float: right;
+  width: 30%
+  margin-top: 10px;
+}
 /* Amenities*/
 
 .containers{
