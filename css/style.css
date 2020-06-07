@@ -1026,13 +1026,13 @@ textarea.form-control {
 
 /* Benefits section*/
 
-#how-it-works{
+#how-it-works {
   text-align: center;
   text-decoration: rgba(0, 0, 0, 0.45);
   font-family: sans-serif;
 }
 
-.join-section{
+.join-section {
   background-color: lavender;
 }
 
@@ -1040,6 +1040,20 @@ textarea.form-control {
   font-weight: bold;
 }
 
+.join-large-margin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.join-how-it-works-content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1; 
+}
 /* Amenities*/
 
 .containers{
