@@ -1054,6 +1054,8 @@ textarea.form-control {
   -ms-flex: 1;
   flex: 1; 
 }
+
+.join-how-it-works-svg:before { content: "\f100"; }
 /* Amenities*/
 
 .containers{
