@@ -85,63 +85,69 @@
       <!-- END section -->
 
     
-    <div class="container" id="container">
-        <div class="form-container sign-up-container">
-            <!-- Sign Up form code goes here -->
+    <!--Form Section -->
+    <div class="cont">
+      <div class="form sign-in">
+        <h2>Sign In</h2>
+        <label>
+          <span>Email Address</span>
+          <input type="email" name="email">
+        </label>
+        <label>
+          <span>Password</span>
+          <input type="password" name="password">
+        </label>
+        <button class="submit" type="button">Sign In</button>
+        <p class="forgot-pass">Forgot Password ?</p>
+  
+        <div class="social-media">
+          <ul>
+            <li><img src="images/facebook.png"></li>
+            <li><img src="images/twitter.png"></li>
+            <li><img src="images/linkedin.png"></li>
+            <li><img src="images/instagram.png"></li>
+          </ul>
         </div>
-        <div class="form-container sign-in-container">
-            <!-- Sign In form code goes here -->
+      </div>
+  
+      <div class="sub-cont">
+        <div class="img">
+          <div class="img-text m-up">
+            <h2>New here?</h2>
+            <p>Sign up and discover great amount of new opportunities!</p>
+          </div>
+          <div class="img-text m-in">
+            <h2>One of us?</h2>
+            <p>If you already has an account, just sign in. We've missed you!</p>
+          </div>
+          <div class="img-btn">
+            <span class="m-up">Sign Up</span>
+            <span class="m-in">Sign In</span>
+          </div>
         </div>
-        <div class="overlay-container">
-            <!-- The overlay code goes here -->
+        <div class="form sign-up">
+          <h2>Sign Up</h2>
+          <label>
+            <span>Name</span>
+            <input type="text">
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email">
+          </label>
+          <label>
+            <span>Password</span>
+            <input type="password">
+          </label>
+          <label>
+            <span>Confirm Password</span>
+            <input type="password">
+          </label>
+          <button type="button" class="submit">Sign Up Now</button>
         </div>
+      </div>
     </div>
-    <div class="form-container sign-up-container">
-        <form action="#">
-            <h6>Create Account</h6>
-            <div class="social-container">
-                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social"><i class="fab fa-twitter-t"></i></a>
-                <a href="#" class="social"><i class="fab fa-instagram-IG"></i></a>
-            </div>
-            <span>or use your email for registration</span>
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
-            <button>Sign Up</button>
-        </form>
-    </div>
-    <div class="form-container sign-in-container">
-        <form action="#">
-            <h6>Sign in</h6>
-            <div class="social-container">
-                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social"><i class="fab fa-twitter-t"></i></a>
-                <a href="#" class="social"><i class="fab fa-instagram-IG"></i></a>
-            </div>
-            <span>or use your account</span>
-            <input type="email" placeholder="Email" />
-            <input type="password" placeholder="Password" />
-            <a href="#">Forgot your password?</a>
-            <button>Sign In</button>
-        </form>
-    </div>
-    <div class="overlay-container">
-        <div class="overlay">
-            <div class="overlay-panel overlay-left">
-                <h6>Welcome Back!</h6>
-                <p>
-                    To keep connected with us please login with your personal info
-                </p>
-                <button class="ghost" id="signIn">Sign In</button>
-            </div>
-            <div class="overlay-panel overlay-right">
-                <h6>Hello, Friend!</h6>
-                <p>Enter your personal details and start journey with us</p>
-                <button class="ghost" id="signUp">Sign Up</button>
-            </div>
-        </div>
-    </div>
+  <script type="text/javascript" src="script.js"></script>
 
 
     <footer class="section footer-section">
@@ -214,6 +220,7 @@
   
       
       <script src="js/scripts.js"></script>
+      <script src="script.js"></script>
       <script src="js/main.js"></script>
         
 </body>
